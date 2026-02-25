@@ -233,13 +233,192 @@ Cria arquivo automático com dados do sistema.
 
 ---
 
-# 🎯 Desafio Final
+# 🧪 Atividade 1 — Criando Estrutura de Pastas
 
-Criar um .bat que:
+### 🎯 Objetivo:
 
-1. Crie pasta chamada empresa
-2. Dentro dela crie: financeiro, rh e ti
-3. Gere um arquivo info.txt com data e hora
-4. Mostre mensagem final personalizada
+Aprender `pwd`, `ls`, `mkdir`, `cd`
+
+### 📌 Desafio:
+
+1. Descubra em qual diretório você está:
+
+```bash
+pwd
+```
+
+2. Crie a seguinte estrutura:
+
+```
+aula-terminal
+ ├── projetos
+ ├── exercicios
+ └── anotações
+```
+
+Comandos esperados:
+
+```bash
+mkdir aula-terminal
+cd aula-terminal
+mkdir projetos exercicios anotações
+```
+
+3. Liste o que foi criado:
+
+```bash
+ls
+```
+
+---
+
+# 🧪 Atividade 2 — Criando Arquivos
+
+### 🎯 Objetivo:
+
+Aprender `touch` e navegação
+
+### 📌 Desafio:
+
+1. Entre na pasta `exercicios`
+
+```bash
+cd exercicios
+```
+
+2. Crie três arquivos:
+
+```
+atividade1.txt
+atividade2.txt
+atividade3.txt
+```
+
+```bash
+touch atividade1.txt atividade2.txt atividade3.txt
+```
+
+3. Liste os arquivos:
+
+```bash
+ls
+```
+
+---
+
+# 🧪 Atividade 3 — Inserindo Conteúdo
+
+### 🎯 Objetivo:
+
+Aprender `echo` e redirecionamento
+
+### 📌 Desafio:
+
+1. Dentro de `atividade1.txt`, escreva:
+
+```
+Meu nome é _______
+Estou aprendendo terminal.
+```
+
+```bash
+echo "Meu nome é João" > atividade1.txt
+echo "Estou aprendendo terminal." >> atividade1.txt
+```
+
+2. Visualize o conteúdo:
+
+```bash
+cat atividade1.txt
+```
+
+Explique a diferença:
+
+* `>` sobrescreve
+* `>>` adiciona
+
+---
+
+# 🧪 Atividade 4 — Renomear e Mover
+
+### 🎯 Objetivo:
+
+Aprender `mv`
+
+### 📌 Desafio:
+
+1. Renomeie:
+
+```
+atividade3.txt → desafio-extra.txt
+```
+
+```bash
+mv atividade3.txt desafio-extra.txt
+```
+
+2. Mova `desafio-extra.txt` para a pasta `projetos`
+
+```bash
+mv desafio-extra.txt ../projetos
+```
+
+---
+
+# 🧪 Atividade 5 — Copiar e Apagar
+
+### 🎯 Objetivo:
+
+Aprender `cp` e `rm`
+
+### 📌 Desafio:
+
+1. Copie `atividade1.txt` para a pasta `projetos`
+
+```bash
+cp atividade1.txt ../projetos
+```
+
+2. Apague `atividade2.txt`
+
+```bash
+rm atividade2.txt
+```
+
+---
+
+# 🧪 Atividade 6 — Desafio Final (Missão Secreta 🚀)
+
+Criar a seguinte estrutura apenas com comandos:
+
+```
+empresa
+ ├── financeiro
+ │    └── relatorio.txt
+ ├── RH
+ │    └── funcionarios.txt
+ └── TI
+      └── chamados.txt
+```
+
+E inserir uma frase dentro de cada arquivo.
+
+---
+
+# 🔥 Extra (para impressionar)
+
+Peça para eles:
+
+* Usar `clear`
+* Usar `history`
+* Usar seta ↑ para repetir comando
+* Criar tudo em **um único comando** usando `mkdir -p`
+
+Exemplo:
+
+```bash
+mkdir -p empresa/{financeiro,RH,TI}
+```
+
 
 ---
