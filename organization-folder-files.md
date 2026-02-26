@@ -1,4 +1,4 @@
-````markdown
+
 # 📂 Organização de Pastas e Arquivos no Terminal
 
 ---
@@ -40,7 +40,7 @@ Neste material, você aprenderá a organizar arquivos e diretórios usando o ter
 
 Mais do que aprender comandos, você estará aprendendo a pensar como um desenvolvedor.
 
----
+
 
 # 🟢 NÍVEL 1 — Estrutura Básica
 
