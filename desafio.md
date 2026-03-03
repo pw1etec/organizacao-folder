@@ -115,28 +115,3 @@ setup-devtech.sh
 ```
 
 Na atividade correspondente no Google Classroom.
-
----
-
-# 🎓 Dica Pedagógica Para Você
-
-Quando alguém perguntar:
-
-> “Professor, é para rodar?”
-
-Você responde:
-
-> “Sim. Um script que não executa não é um script.”
-
-Isso já eleva o nível da turma automaticamente 😎
-
----
-
-Se você quiser, posso agora:
-
-* 📊 Criar rubrica de correção (com pontuação automática)
-* 🧪 Criar versão avaliativa valendo nota
-* 🧠 Criar armadilhas pedagógicas para testar se copiaram
-* 🚀 Criar versão nível avançado com permissões (`chmod`, `chown`)
-
-Qual próximo passo, professor? 😎
